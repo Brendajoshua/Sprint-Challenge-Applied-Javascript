@@ -31,4 +31,4 @@ function Header() {
 
     return div;
 }
-headerContainer.appendChild(Header());
+headerContainer.appendChild(Header())
