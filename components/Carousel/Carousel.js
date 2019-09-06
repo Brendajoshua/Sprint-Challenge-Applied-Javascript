@@ -17,8 +17,10 @@
     <div class="right-button"> > </div>
   </div>
 */
-
-const createCarousel = content => {
+let carouselContainer = document.querySelector(".carousel-container");
+console.log(carouselContainer);
+//function
+function createCarousel(carousel){
   let div = document.createElement("div");
   div.classList.add("carousel");
 
@@ -43,3 +45,11 @@ const createCarousel = content => {
 
   return div;
 }
+carouselContainer.appendChild(createCarousel(carousel))
+// let carousel = createCarousel(carouselItems);
+// document.querySelector(".carousel-container").append(carousel);
+
+// leftbtndiv.addEventListener("click", event => {
+//   event.preventDefault();
+//   carousel.classList.toggle(".left-button")
+// });

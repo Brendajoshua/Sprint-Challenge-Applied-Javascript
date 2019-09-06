@@ -32,3 +32,9 @@ axios.get("https://lambda-times-backend.herokuapp.com/topics")
 .catch(error => {
     console.error(error)
   });
+
+//   const tabButton = document.querySelector(".tab");
+//   tabButton.addEventListener("click", event => {
+//       event.preventDefault();
+//       tab.classList.toggle("tab-open")
+//   });

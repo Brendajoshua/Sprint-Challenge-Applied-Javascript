@@ -40,7 +40,7 @@ function createCard(card){
     imgdiv.appendChild(img);
 
     let span = document.createElement("span");
-    span.textContent = `By: ${card.authorname}`;
+    span.textContent = `"By: ${card.authorName}"`;
 
     authordiv.appendChild(imgdiv);
     authordiv.appendChild(span);
